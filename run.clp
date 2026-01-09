@@ -1,7 +1,7 @@
-; (batch "galletitas/run.clp")
+; (batch "Galletas_CLIPS/run.clp")
 
-(load "galletitas/bc.clp")
-(load "galletitas/bh.clp")
+(load "Galletas_CLIPS/bc.clp")
+(load "Galletas_CLIPS/bh.clp")
 
 (reset)
 (run)
