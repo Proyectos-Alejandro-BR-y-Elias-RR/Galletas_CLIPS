@@ -1,3 +1,6 @@
+; Autores: Elías Robles Ruiz y Alejandro Barrionuevo Rosado
+
+; Galletas
 (deftemplate galletas
   0 10
   (
@@ -7,6 +10,7 @@
   )
 )
 
+; Temperatura del horno
 (deftemplate temperatura
   150 250
   (
@@ -16,6 +20,7 @@
   )
 )
 
+; Conjunto de reglas para cada momento de la cocción
 (defrule regla_poco_crudas
   (galletas poco_crudas)
 =>
@@ -33,3 +38,4 @@
 =>
   (assert (temperatura baja))
 )
+
